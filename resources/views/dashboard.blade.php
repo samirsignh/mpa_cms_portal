@@ -488,7 +488,7 @@
                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                     <div class="msg d-flex align-items-center w-100">
                                         <div class="image-box active">
-                                            <img src="public/assets/images/profile/small/pic6.jpg" alt="">
+                                            <img src="{{ asset('images/pic6.jpg') }}" alt="">
                                         </div>
                                         <div class="ms-3 w-100 ">
                                             <h4 class="fs-18 font-w600">Maren Rosser</h4>
@@ -518,7 +518,7 @@
                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                     <div class="msg d-flex align-items-center w-100">
                                         <div class="image-box">
-                                            <img src="public/assets/images/profile/small/pic7.jpg" alt="">
+                                            <img src="{{ asset('images/pic7.jpg') }}" alt="">
                                         </div>
                                         <div class="ms-3 w-100">
                                             <h4 class="fs-18 font-w600">Kaiya Bergson</h4>
@@ -547,7 +547,7 @@
                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                     <div class="msg d-flex align-items-center w-100">
                                         <div class="image-box active">
-                                            <img src="public/assets/images/profile/small/pic4.jpg" alt="">
+                                            <img src="{{ asset('images/pic4.jpg') }}" alt="">
                                         </div>
                                         <div class="ms-3 w-100">
                                             <h4 class="fs-18 font-w600">Ruben Press</h4>
@@ -576,7 +576,7 @@
                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                     <div class="msg d-flex align-items-center w-100">
                                         <div class="image-box active">
-                                            <img src="public/assets/images/profile/small/pic3.jpg" alt="">
+                                            <img src="{{ asset('images/pic3.jpg') }}" alt="">
                                         </div>
                                         <div class="ms-3 w-100">
                                             <h4 class="fs-18 font-w600">Cristofer Torff</h4>
@@ -605,7 +605,7 @@
                                 <div class="msg-bx d-flex justify-content-between align-items-center">
                                     <div class="msg d-flex align-items-center w-100">
                                         <div class="image-box active">
-                                            <img src="public/assets/images/profile/small/pic5.jpg" alt="">
+                                            <img src="{{ asset('images/pic5.jpg') }}" alt="">
                                         </div>
                                         <div class="ms-3 w-100">
                                             <h4 class="fs-18 font-w600">Ann Rosser</h4>
