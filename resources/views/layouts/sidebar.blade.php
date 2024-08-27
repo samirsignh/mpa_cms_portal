@@ -2,23 +2,22 @@
 <div class="dlabnav">
     <div class="dlabnav-scroll">
         <ul class="metismenu" id="menu">
-            <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
+            <li><a href="{{ route('dashboard') }}" class="" aria-expanded="false">
                     <i class="fas fa-home"></i>
                     <span class="nav-text">Dashboard</span>
                 </a>
+            </li>
+            <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
+                    <i class="fas fa-user-check"></i>
+                    <span class="nav-text">Register User</span>
+                </a>
                 <ul aria-expanded="false">
-                    <li><a href="index.html">Dashboard Light</a></li>
-                    <li><a href="index-2.html">Dashboard Dark</a></li>
-                    <li><a href="kanban.html">Kanban</a></li>
-                    <li><a href="clients.html">Clients</a></li>
-                    <li><a href="project-details.html">Project Details</a></li>
-                    <li><a href="message.html">Messages</a></li>
-                    <li><a href="latest-activity.html">Latest Activity</a></li>
+                    <li><a href="{{ route('user_registration') }}">User List</a></li>
                 </ul>
 
             </li>
 
-            <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
+            {{-- <li><a class="has-arrow " href="javascript:void()" aria-expanded="false">
                     <i class="fas fa-info-circle"></i>
                     <span class="nav-text">Apps</span>
                 </a>
@@ -142,20 +141,8 @@
                     <li><a href="page-lock-screen.html">Lock Screen</a></li>
                     <li><a href="page-empty.html">Empty Page</a></li>
                 </ul>
-            </li>
+            </li> --}}
         </ul>
-        <div class="plus-box">
-            <div class="text-center">
-                <h4 class="fs-18 font-w600 mb-4">Enable Workload Automation System</h4>
-                <a href="javascript:void(0);" class="btn btn-primary btn-rounded">Learn more <i
-                        class="fas fa-caret-right"></i></a>
-            </div>
-        </div>
-
-        <div class="copyright">
-            <p><strong>Workload Project Management</strong> © 2024 All Rights Reserved</p>
-            <p class="fs-12">Made with <span class="heart"></span> by DexignLab</p>
-        </div>
     </div>
 </div>
 <!--**********************************Sidebar end***********************************-->

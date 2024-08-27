@@ -1,7 +1,48 @@
+<style>
+    .brand_logo {
+        max-width: 235px;
+    }
+
+    .nav-header {
+        border-bottom: 1px solid #dfdfdf63;
+    }
+
+    .dlabnav {
+        border-right: 1px solid #dfdfdfd6;
+    }
+
+    .nav-text:hover,
+    .dlabnav .metismenu li a:hover {
+        color: #052055;
+    }
+
+    .dlabnav .metismenu>li.mm-active>a {
+        background: rgb(10 58 38 / 13%);
+    }
+
+    .dlabnav .metismenu>li.mm-active>a i {
+        color: #0B91D7;
+    }
+
+    .dlabnav .metismenu>li.mm-active>a {
+        color: #0B91D7 !important;
+    }
+
+    .dlabnav .metismenu>li.mm-active>a:after {
+        border-top: 0.3125rem solid #0B91D7;
+        border-left: 0.3125rem solid #0B91D7;
+    }
+
+    .dlabnav .metismenu>li .mm-active>a i {
+        color: #0B91D7 !important;
+    }
+</style>
+
 <!--**********************************Nav header start***********************************-->
 <div class="nav-header">
-    <a href="index.html" class="brand-logo">
-        <svg class="logo-abbr" width="60" height="60" viewBox="0 0 60 60" fill="none"
+    <a href="javascript:;" class="brand-logo">
+        <img class="brand_logo" src="{{ asset('images/mpalogo.PNG') }}" alt="brand-logo">
+        {{-- <svg class="logo-abbr" width="60" height="60" viewBox="0 0 60 60" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <rect class="react-logo" width="60" height="60" rx="30" fill="#00A15D" />
             <mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60" height="60">
@@ -30,7 +71,7 @@
         <div class="brand-title">
             <h2 class="">Workload</h2>
             <span class="brand-sub-title">Project Management Admin</span>
-        </div>
+        </div> --}}
     </a>
     <div class="nav-control">
         <div class="hamburger">

@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/mpa_logo.jpeg') }}">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
     <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
 
@@ -34,7 +34,9 @@
     <link href="{{ asset('css/nice-select.css') }}" rel="stylesheet" type="text/css" />
 
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" />
+    @stack('styles')
 
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> --}}
 </head>
 
 <body>
@@ -57,11 +59,11 @@
     ***********************************-->
     <div id="main-wrapper">
 
-        @include('layouts.nav_header');
+        @include('layouts.nav_header')
 
-        @include('layouts.header');
+        @include('layouts.header')
 
-        @include('layouts.sidebar');
+        @include('layouts.sidebar')
 
         @yield('content');
 
@@ -82,8 +84,7 @@
     <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
 
 
-    <script src="{{ asset('js/Chart.bundle.min.js') }}"></script>
-    <script src="{{ asset('js/apexchart.js') }}"></script>
+    @stack('scripts')
     <script src="{{ asset('js/jquery.peity.min.js') }}"></script>
     <script src="{{ asset('js/dashboard-1.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.js') }}"></script>
@@ -92,6 +93,9 @@
     <script src="{{ asset('js/dlabnav-init.js')}}"></script>
     <script src="{{ asset('js/demo.js') }}"></script>
     <script src="{{ asset('js/styleSwitcher.js') }}"></script>
+
+    @stack('scripts')
+
     <script>
         function cardsCenter()
 	{
